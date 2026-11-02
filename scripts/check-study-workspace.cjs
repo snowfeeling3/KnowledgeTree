@@ -1,0 +1,58 @@
+const { chromium } = require('playwright');
+const fs = require('node:fs');
+(async () => {
+ const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});
+ const page=await browser.newPage({viewport:{width:1440,height:1000}}), errors=[];
+ page.on('pageerror',e=>errors.push(String(e)));
+ const url='http://127.0.0.1:1420/illustrated-tree-preview.html?workspace';
+ const out=require('node:path').resolve(__dirname,'../artifacts/study-workspace'); fs.mkdirSync(out,{recursive:true});
+ await page.goto(url); await page.locator('.study-prose h1').waitFor();
+ if(await page.locator('.study-tree').count()) throw new Error('tree should be closed initially');
+ await page.screenshot({path:out+'/reading-light.png'});
+ await page.getByRole('button',{name:'知识树',exact:true}).click(); await page.locator('.mindmap-node').first().waitFor();
+ await page.screenshot({path:out+'/tree-and-document.png'});
+ await page.getByRole('button',{name:'最大化知识树',exact:true}).click();
+ if(await page.locator('.study-main-document').isVisible()) throw new Error('document should hide during tree maximum');
+ await page.screenshot({path:out+'/tree-independent.png'});
+ await page.locator('.mindmap-node[role="button"]').nth(1).click();
+ await page.getByRole('button',{name:'阅读选中知识',exact:true}).click(); await page.locator('.study-prose h1').waitFor();
+ const selectedTitle=await page.locator('.study-prose h1').innerText();
+ await page.getByRole('button',{name:'收起知识树',exact:true}).click();
+ await page.getByRole('button',{name:'最大化知识大纲',exact:true}).click(); await page.getByRole('button',{name:'还原知识大纲',exact:true}).click();
+ await page.getByRole('button',{name:'专注正文',exact:true}).click();
+ if(await page.locator('.study-outline').count()) throw new Error('outline should hide while reading focus');
+ await page.getByRole('button',{name:'目录',exact:true}).click(); await page.locator('.document-toc').waitFor();
+ await page.getByRole('button',{name:'核心概念',exact:true}).click();
+ const headingJump=await page.locator('.document-scroll').evaluate(el=>el.scrollTop>0);
+ await page.screenshot({path:out+'/reading-focus.png'});
+ await page.getByRole('button',{name:'对照',exact:true}).click(); await page.getByRole('textbox',{name:'Markdown 源码',exact:true}).waitFor();
+ const editor=page.getByRole('textbox',{name:'Markdown 源码',exact:true});
+ const text=await editor.inputValue(); const updated=text+'\n\n## 验证学习记录\n\n这里是我的学习理解。\n';
+ await page.evaluate(() => { window.__UX_PREVIEW__.failWrite = true; });
+ await editor.fill(updated); await page.waitForTimeout(1000);
+ await page.locator('.study-prose h2').filter({hasText:'验证学习记录'}).waitFor();
+ await page.getByRole('button',{name:'知识树',exact:true}).click(); await page.getByRole('button',{name:'收起知识树',exact:true}).click();
+ if(await editor.inputValue()!==updated) throw new Error('draft lost after changing regions');
+ const failedDraftVisible=await page.locator('.form-error').filter({hasText:'模拟磁盘写入失败'}).count();
+ await page.evaluate(() => { window.__UX_PREVIEW__.failWrite = false; });
+ await page.keyboard.press('Control+s'); await page.waitForTimeout(300);
+ const saved=await page.evaluate(()=>Object.values(window.__UX_PREVIEW__.documents).some(text=>text.includes('这里是我的学习理解')));
+ await page.screenshot({path:out+'/split-editor.png'});
+ await page.getByRole('button',{name:'阅读',exact:true}).click();
+ const tocUpdated=await page.locator('.document-toc').getByRole('button',{name:'验证学习记录',exact:true}).count();
+ await page.getByRole('button',{name:'知识树',exact:true}).click();
+ const resize=page.getByRole('separator',{name:'调整知识树宽度',exact:true});
+ await resize.focus(); const beforeWidth=await page.locator('.study-tree').evaluate(el=>el.getBoundingClientRect().width); await page.keyboard.press('ArrowRight'); const afterWidth=await page.locator('.study-tree').evaluate(el=>el.getBoundingClientRect().width);
+ for (const mode of ['illustrated','legacy','mindmap']) {
+   await page.getByRole('combobox',{name:'知识树布局',exact:true}).selectOption(mode);
+   await page.locator(mode==='mindmap'?'.mindmap-node':mode==='illustrated'?'.illustrated-tree':'.tree-edge').first().waitFor();
+ }
+ const responsive=[];
+ for(const width of [375,768,1024,1440]) { await page.setViewportSize({width,height:1000}); responsive.push({width,overflow:await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)}); if(width===375) await page.screenshot({path:out+'/reading-mobile.png'}); }
+ await page.getByRole('button',{name:'主题',exact:true}).click(); await page.getByRole('menuitemcheckbox',{name:'Everforest',exact:true}).click(); await page.screenshot({path:out+'/reading-everforest.png'});
+ await page.getByRole('button',{name:'主题',exact:true}).click(); await page.getByRole('menuitemcheckbox',{name:'深色',exact:true}).click(); await page.screenshot({path:out+'/reading-dark.png'});
+ await page.reload(); await page.locator('.study-prose h1').waitFor(); const restoredTree=await page.locator('.study-tree').count();
+ const report={selectedTitle,headingJump,tocUpdated:Boolean(tocUpdated),failedDraftVisible:Boolean(failedDraftVisible),saved,draftPreserved:true,treeLayouts:true,keyboardResize:afterWidth>beforeWidth,restoredTree:Boolean(restoredTree),responsive,errors};
+ fs.writeFileSync(out+'/browser-check.json',JSON.stringify(report,null,2)); console.log(report); await browser.close();
+ if(!failedDraftVisible||!saved||!headingJump||!tocUpdated||!restoredTree||afterWidth<=beforeWidth||errors.length||responsive.some(r=>r.overflow))process.exitCode=1;
+})().catch(e=>{console.error(e);process.exitCode=1});

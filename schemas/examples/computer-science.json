@@ -1,0 +1,1049 @@
+{
+  "subject": {
+    "id": "computer-science",
+    "title": "计算机科学与技术",
+    "description": "学科思维导图；分类不代表历史先后或严格学习依赖。原始路线见 docs/sources/computer-science-roadmap.md。"
+  },
+  "stages": [],
+  "nodes": [
+    {
+      "id": "module-01",
+      "title": "计算理论",
+      "type": "concept",
+      "tags": [
+        "学科分类"
+      ]
+    },
+    {
+      "id": "module-01-1",
+      "title": "Turing Machine",
+      "type": "concept",
+      "parent": "module-01",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-01-2",
+      "title": "Automata",
+      "type": "concept",
+      "parent": "module-01",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-01-3",
+      "title": "Logic",
+      "type": "concept",
+      "parent": "module-01",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-02",
+      "title": "数字逻辑",
+      "type": "concept",
+      "tags": [
+        "学科分类"
+      ]
+    },
+    {
+      "id": "module-02-1",
+      "title": "Boolean",
+      "type": "concept",
+      "parent": "module-02",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-02-2",
+      "title": "Logic Gate",
+      "type": "concept",
+      "parent": "module-02",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-02-3",
+      "title": "Binary",
+      "type": "concept",
+      "parent": "module-02",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-02-4",
+      "title": "ALU",
+      "type": "concept",
+      "parent": "module-02",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-03",
+      "title": "计算机组成",
+      "type": "concept",
+      "tags": [
+        "学科分类"
+      ]
+    },
+    {
+      "id": "module-03-1",
+      "title": "CPU",
+      "type": "concept",
+      "parent": "module-03",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-03-2",
+      "title": "Memory",
+      "type": "concept",
+      "parent": "module-03",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-03-3",
+      "title": "Cache",
+      "type": "concept",
+      "parent": "module-03",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-03-4",
+      "title": "I/O",
+      "type": "concept",
+      "parent": "module-03",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-03-5",
+      "title": "ISA",
+      "type": "concept",
+      "parent": "module-03",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-04",
+      "title": "编程语言",
+      "type": "concept",
+      "tags": [
+        "学科分类"
+      ]
+    },
+    {
+      "id": "module-04-1",
+      "title": "Machine Code",
+      "type": "concept",
+      "parent": "module-04",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-04-2",
+      "title": "Assembly",
+      "type": "concept",
+      "parent": "module-04",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-04-3",
+      "title": "C",
+      "type": "concept",
+      "parent": "module-04",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-04-4",
+      "title": "Java",
+      "type": "concept",
+      "parent": "module-04",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-04-5",
+      "title": "Python",
+      "type": "concept",
+      "parent": "module-04",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-04-6",
+      "title": "Rust",
+      "type": "concept",
+      "parent": "module-04",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-04-7",
+      "title": "Programming Paradigms",
+      "type": "concept",
+      "parent": "module-04",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-05",
+      "title": "数据结构",
+      "type": "concept",
+      "tags": [
+        "学科分类"
+      ]
+    },
+    {
+      "id": "module-05-1",
+      "title": "Array",
+      "type": "concept",
+      "parent": "module-05",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-05-2",
+      "title": "Linked List",
+      "type": "concept",
+      "parent": "module-05",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-05-3",
+      "title": "Stack",
+      "type": "concept",
+      "parent": "module-05",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-05-4",
+      "title": "Queue",
+      "type": "concept",
+      "parent": "module-05",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-05-5",
+      "title": "Tree",
+      "type": "concept",
+      "parent": "module-05",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-05-6",
+      "title": "Graph",
+      "type": "concept",
+      "parent": "module-05",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-05-7",
+      "title": "Hash Table",
+      "type": "concept",
+      "parent": "module-05",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-06",
+      "title": "算法与复杂度",
+      "type": "concept",
+      "tags": [
+        "学科分类"
+      ]
+    },
+    {
+      "id": "module-06-1",
+      "title": "Sorting",
+      "type": "concept",
+      "parent": "module-06",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-06-2",
+      "title": "Searching",
+      "type": "concept",
+      "parent": "module-06",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-06-3",
+      "title": "Graph Algorithms",
+      "type": "concept",
+      "parent": "module-06",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-06-4",
+      "title": "Dynamic Programming",
+      "type": "concept",
+      "parent": "module-06",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-06-5",
+      "title": "Greedy",
+      "type": "concept",
+      "parent": "module-06",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-06-6",
+      "title": "Divide and Conquer",
+      "type": "concept",
+      "parent": "module-06",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-06-7",
+      "title": "Big-O",
+      "type": "concept",
+      "parent": "module-06",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-07",
+      "title": "操作系统",
+      "type": "concept",
+      "tags": [
+        "学科分类"
+      ]
+    },
+    {
+      "id": "module-07-1",
+      "title": "Process",
+      "type": "concept",
+      "parent": "module-07",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-07-2",
+      "title": "Thread",
+      "type": "concept",
+      "parent": "module-07",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-07-3",
+      "title": "Scheduling",
+      "type": "concept",
+      "parent": "module-07",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-07-4",
+      "title": "Memory Management",
+      "type": "concept",
+      "parent": "module-07",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-07-5",
+      "title": "Virtual Memory",
+      "type": "concept",
+      "parent": "module-07",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-07-6",
+      "title": "File System",
+      "type": "concept",
+      "parent": "module-07",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-07-7",
+      "title": "System Call",
+      "type": "concept",
+      "parent": "module-07",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-07-8",
+      "title": "Linux",
+      "type": "concept",
+      "parent": "module-07",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-08",
+      "title": "计算机网络",
+      "type": "concept",
+      "tags": [
+        "学科分类"
+      ]
+    },
+    {
+      "id": "module-08-1",
+      "title": "Ethernet",
+      "type": "concept",
+      "parent": "module-08",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-08-2",
+      "title": "IP",
+      "type": "concept",
+      "parent": "module-08",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-08-3",
+      "title": "TCP",
+      "type": "concept",
+      "parent": "module-08",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-08-4",
+      "title": "UDP",
+      "type": "concept",
+      "parent": "module-08",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-08-5",
+      "title": "ARP",
+      "type": "concept",
+      "parent": "module-08",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-08-6",
+      "title": "DNS",
+      "type": "concept",
+      "parent": "module-08",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-08-7",
+      "title": "HTTP/HTTPS",
+      "type": "concept",
+      "parent": "module-08",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-08-8",
+      "title": "Router",
+      "type": "concept",
+      "parent": "module-08",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-08-9",
+      "title": "Switch",
+      "type": "concept",
+      "parent": "module-08",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-09",
+      "title": "数据库",
+      "type": "concept",
+      "tags": [
+        "学科分类"
+      ]
+    },
+    {
+      "id": "module-09-1",
+      "title": "DBMS",
+      "type": "concept",
+      "parent": "module-09",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-09-2",
+      "title": "Relational Model",
+      "type": "concept",
+      "parent": "module-09",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-09-3",
+      "title": "SQL",
+      "type": "concept",
+      "parent": "module-09",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-09-4",
+      "title": "Index",
+      "type": "concept",
+      "parent": "module-09",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-09-5",
+      "title": "Transaction",
+      "type": "concept",
+      "parent": "module-09",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-09-6",
+      "title": "ACID",
+      "type": "concept",
+      "parent": "module-09",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-09-7",
+      "title": "PostgreSQL / MySQL / Redis",
+      "type": "concept",
+      "parent": "module-09",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-10",
+      "title": "编译原理",
+      "type": "concept",
+      "tags": [
+        "学科分类"
+      ]
+    },
+    {
+      "id": "module-10-1",
+      "title": "Lexer",
+      "type": "concept",
+      "parent": "module-10",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-10-2",
+      "title": "Parser",
+      "type": "concept",
+      "parent": "module-10",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-10-3",
+      "title": "AST",
+      "type": "concept",
+      "parent": "module-10",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-10-4",
+      "title": "Compiler",
+      "type": "concept",
+      "parent": "module-10",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-10-5",
+      "title": "IR",
+      "type": "concept",
+      "parent": "module-10",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-10-6",
+      "title": "Optimization",
+      "type": "concept",
+      "parent": "module-10",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-10-7",
+      "title": "LLVM",
+      "type": "concept",
+      "parent": "module-10",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-11",
+      "title": "软件工程与版本控制",
+      "type": "concept",
+      "tags": [
+        "学科分类"
+      ]
+    },
+    {
+      "id": "module-11-1",
+      "title": "Git",
+      "type": "concept",
+      "parent": "module-11",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-11-2",
+      "title": "GitHub",
+      "type": "concept",
+      "parent": "module-11",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-11-3",
+      "title": "Branch",
+      "type": "concept",
+      "parent": "module-11",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-11-4",
+      "title": "Merge",
+      "type": "concept",
+      "parent": "module-11",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-11-5",
+      "title": "CI/CD",
+      "type": "concept",
+      "parent": "module-11",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-11-6",
+      "title": "Testing",
+      "type": "concept",
+      "parent": "module-11",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-11-7",
+      "title": "Design Pattern",
+      "type": "concept",
+      "parent": "module-11",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-12",
+      "title": "分布式系统",
+      "type": "concept",
+      "tags": [
+        "学科分类"
+      ]
+    },
+    {
+      "id": "module-12-1",
+      "title": "Distributed System",
+      "type": "concept",
+      "parent": "module-12",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-12-2",
+      "title": "RPC",
+      "type": "concept",
+      "parent": "module-12",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-12-3",
+      "title": "Consensus",
+      "type": "concept",
+      "parent": "module-12",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-12-4",
+      "title": "CAP",
+      "type": "concept",
+      "parent": "module-12",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-12-5",
+      "title": "Load Balancing",
+      "type": "concept",
+      "parent": "module-12",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-12-6",
+      "title": "Fault Tolerance",
+      "type": "concept",
+      "parent": "module-12",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-13",
+      "title": "容器与云计算",
+      "type": "concept",
+      "tags": [
+        "学科分类"
+      ]
+    },
+    {
+      "id": "module-13-1",
+      "title": "Virtual Machine",
+      "type": "concept",
+      "parent": "module-13",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-13-2",
+      "title": "Container",
+      "type": "concept",
+      "parent": "module-13",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-13-3",
+      "title": "Docker",
+      "type": "concept",
+      "parent": "module-13",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-13-4",
+      "title": "Kubernetes",
+      "type": "concept",
+      "parent": "module-13",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-13-5",
+      "title": "IaaS",
+      "type": "concept",
+      "parent": "module-13",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-13-6",
+      "title": "PaaS",
+      "type": "concept",
+      "parent": "module-13",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-13-7",
+      "title": "SaaS",
+      "type": "concept",
+      "parent": "module-13",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-14",
+      "title": "大数据",
+      "type": "concept",
+      "tags": [
+        "学科分类"
+      ]
+    },
+    {
+      "id": "module-14-1",
+      "title": "Hadoop",
+      "type": "concept",
+      "parent": "module-14",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-14-2",
+      "title": "HDFS",
+      "type": "concept",
+      "parent": "module-14",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-14-3",
+      "title": "MapReduce",
+      "type": "concept",
+      "parent": "module-14",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-14-4",
+      "title": "Spark",
+      "type": "concept",
+      "parent": "module-14",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-14-5",
+      "title": "Kafka",
+      "type": "concept",
+      "parent": "module-14",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-14-6",
+      "title": "Data Pipeline",
+      "type": "concept",
+      "parent": "module-14",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-15",
+      "title": "AI",
+      "type": "concept",
+      "tags": [
+        "学科分类"
+      ]
+    },
+    {
+      "id": "module-15-1",
+      "title": "Machine Learning",
+      "type": "concept",
+      "parent": "module-15",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-15-2",
+      "title": "Deep Learning",
+      "type": "concept",
+      "parent": "module-15",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-15-3",
+      "title": "GPU",
+      "type": "concept",
+      "parent": "module-15",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-15-4",
+      "title": "CNN",
+      "type": "concept",
+      "parent": "module-15",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-15-5",
+      "title": "RNN",
+      "type": "concept",
+      "parent": "module-15",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-15-6",
+      "title": "Transformer",
+      "type": "concept",
+      "parent": "module-15",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-15-7",
+      "title": "LLM",
+      "type": "concept",
+      "parent": "module-15",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-15-8",
+      "title": "RAG",
+      "type": "concept",
+      "parent": "module-15",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-15-9",
+      "title": "Agent",
+      "type": "concept",
+      "parent": "module-15",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-15-10",
+      "title": "Tool Calling",
+      "type": "concept",
+      "parent": "module-15",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-15-11",
+      "title": "MCP",
+      "type": "concept",
+      "parent": "module-15",
+      "tags": [
+        "学习主题"
+      ]
+    },
+    {
+      "id": "module-15-12",
+      "title": "AI Infrastructure",
+      "type": "concept",
+      "parent": "module-15",
+      "tags": [
+        "学习主题"
+      ]
+    }
+  ],
+  "relations": []
+}

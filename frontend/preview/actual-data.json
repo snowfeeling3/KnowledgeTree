@@ -1,0 +1,1869 @@
+{
+  "title": "计算机科学与技术",
+  "layout": {
+    "width": 1000,
+    "height": 1000,
+    "edges": [
+      {
+        "from": "compiler",
+        "to": "abstract-syntax-tree",
+        "kind": "parent"
+      },
+      {
+        "from": "dbms",
+        "to": "acid",
+        "kind": "parent"
+      },
+      {
+        "from": "modern-ai-systems",
+        "to": "agent-systems",
+        "kind": "parent"
+      },
+      {
+        "from": "agent-systems",
+        "to": "agent",
+        "kind": "parent"
+      },
+      {
+        "from": "agent-systems",
+        "to": "ai-infrastructure",
+        "kind": "parent"
+      },
+      {
+        "from": "cpu",
+        "to": "alu",
+        "kind": "parent"
+      },
+      {
+        "from": "linear-and-hash-structures",
+        "to": "array",
+        "kind": "parent"
+      },
+      {
+        "from": "programming-abstraction",
+        "to": "assembly",
+        "kind": "parent"
+      },
+      {
+        "from": "big-data-ai",
+        "to": "attention-models",
+        "kind": "parent"
+      },
+      {
+        "from": "computer-science-technology",
+        "to": "big-data-ai",
+        "kind": "parent"
+      },
+      {
+        "from": "mathematical-logic",
+        "to": "boolean-algebra",
+        "kind": "parent"
+      },
+      {
+        "from": "storage-interconnect",
+        "to": "bus",
+        "kind": "parent"
+      },
+      {
+        "from": "linear-and-hash-structures",
+        "to": "c-language",
+        "kind": "parent"
+      },
+      {
+        "from": "virtualized-compute",
+        "to": "cloud-computing",
+        "kind": "parent"
+      },
+      {
+        "from": "compiler-principles",
+        "to": "cloud-native-platform",
+        "kind": "parent"
+      },
+      {
+        "from": "deep-learning",
+        "to": "cnn",
+        "kind": "parent"
+      },
+      {
+        "from": "compiler",
+        "to": "compiler-optimization",
+        "kind": "parent"
+      },
+      {
+        "from": "programming-languages",
+        "to": "compiler-pipeline",
+        "kind": "parent"
+      },
+      {
+        "from": "computer-science-technology",
+        "to": "compiler-principles",
+        "kind": "parent"
+      },
+      {
+        "from": "compiler-pipeline",
+        "to": "compiler",
+        "kind": "parent"
+      },
+      {
+        "from": "nonlinear-structures-and-algorithms",
+        "to": "complexity",
+        "kind": "parent"
+      },
+      {
+        "from": "computing-foundations",
+        "to": "computability-theory",
+        "kind": "parent"
+      },
+      {
+        "from": "computer-science-technology",
+        "to": "computer-networks",
+        "kind": "parent"
+      },
+      {
+        "from": "computer-science-technology",
+        "to": "computer-organization",
+        "kind": "parent"
+      },
+      {
+        "from": "computer-science-technology",
+        "to": "computing-foundations",
+        "kind": "parent"
+      },
+      {
+        "from": "cloud-native-platform",
+        "to": "container",
+        "kind": "parent"
+      },
+      {
+        "from": "delivery-practices",
+        "to": "continuous-integration-delivery",
+        "kind": "parent"
+      },
+      {
+        "from": "processor-architecture",
+        "to": "cpu",
+        "kind": "parent"
+      },
+      {
+        "from": "distributed-cloud-computing",
+        "to": "data-processing-platforms",
+        "kind": "parent"
+      },
+      {
+        "from": "computer-science-technology",
+        "to": "data-structures-algorithms",
+        "kind": "parent"
+      },
+      {
+        "from": "dbms",
+        "to": "database-index",
+        "kind": "parent"
+      },
+      {
+        "from": "computer-science-technology",
+        "to": "databases",
+        "kind": "parent"
+      },
+      {
+        "from": "relational-data-management",
+        "to": "dbms",
+        "kind": "parent"
+      },
+      {
+        "from": "machine-learning",
+        "to": "deep-learning",
+        "kind": "parent"
+      },
+      {
+        "from": "software-engineering-version-control",
+        "to": "delivery-practices",
+        "kind": "parent"
+      },
+      {
+        "from": "delivery-practices",
+        "to": "design-pattern",
+        "kind": "parent"
+      },
+      {
+        "from": "computer-science-technology",
+        "to": "distributed-cloud-computing",
+        "kind": "parent"
+      },
+      {
+        "from": "virtualized-compute",
+        "to": "distributed-system",
+        "kind": "parent"
+      },
+      {
+        "from": "ip",
+        "to": "dns",
+        "kind": "parent"
+      },
+      {
+        "from": "container",
+        "to": "docker",
+        "kind": "parent"
+      },
+      {
+        "from": "computer-organization",
+        "to": "electronic-computer-system",
+        "kind": "parent"
+      },
+      {
+        "from": "electronic-computer-system",
+        "to": "electronic-computer",
+        "kind": "parent"
+      },
+      {
+        "from": "local-networking",
+        "to": "ethernet",
+        "kind": "parent"
+      },
+      {
+        "from": "storage-abstraction",
+        "to": "file-system",
+        "kind": "parent"
+      },
+      {
+        "from": "logic-gates",
+        "to": "full-adder",
+        "kind": "parent"
+      },
+      {
+        "from": "version-control",
+        "to": "git",
+        "kind": "parent"
+      },
+      {
+        "from": "git",
+        "to": "github",
+        "kind": "parent"
+      },
+      {
+        "from": "neural-computing",
+        "to": "gpu",
+        "kind": "parent"
+      },
+      {
+        "from": "nonlinear-structures-and-algorithms",
+        "to": "graph",
+        "kind": "parent"
+      },
+      {
+        "from": "data-processing-platforms",
+        "to": "hadoop",
+        "kind": "parent"
+      },
+      {
+        "from": "linear-and-hash-structures",
+        "to": "hash-table",
+        "kind": "parent"
+      },
+      {
+        "from": "web-platform",
+        "to": "http",
+        "kind": "parent"
+      },
+      {
+        "from": "computer-organization",
+        "to": "input-output-system",
+        "kind": "parent"
+      },
+      {
+        "from": "input-output-system",
+        "to": "input-output",
+        "kind": "parent"
+      },
+      {
+        "from": "processor-architecture",
+        "to": "instruction-set-architecture",
+        "kind": "parent"
+      },
+      {
+        "from": "compiler",
+        "to": "intermediate-representation",
+        "kind": "parent"
+      },
+      {
+        "from": "computer-networks",
+        "to": "internet-protocol-stack",
+        "kind": "parent"
+      },
+      {
+        "from": "internet-protocol-stack",
+        "to": "ip",
+        "kind": "parent"
+      },
+      {
+        "from": "modern-ai-systems",
+        "to": "knowledge-augmentation",
+        "kind": "parent"
+      },
+      {
+        "from": "container",
+        "to": "kubernetes",
+        "kind": "parent"
+      },
+      {
+        "from": "transformer",
+        "to": "large-language-model",
+        "kind": "parent"
+      },
+      {
+        "from": "compiler",
+        "to": "lexer",
+        "kind": "parent"
+      },
+      {
+        "from": "programming-methods",
+        "to": "linear-and-hash-structures",
+        "kind": "parent"
+      },
+      {
+        "from": "open-source-runtime",
+        "to": "linux",
+        "kind": "parent"
+      },
+      {
+        "from": "linear-and-hash-structures",
+        "to": "list",
+        "kind": "parent"
+      },
+      {
+        "from": "computer-networks",
+        "to": "local-networking",
+        "kind": "parent"
+      },
+      {
+        "from": "mathematical-logic",
+        "to": "logic-gates",
+        "kind": "parent"
+      },
+      {
+        "from": "processor-architecture",
+        "to": "machine-code",
+        "kind": "parent"
+      },
+      {
+        "from": "neural-computing",
+        "to": "machine-learning",
+        "kind": "parent"
+      },
+      {
+        "from": "computing-foundations",
+        "to": "mathematical-logic",
+        "kind": "parent"
+      },
+      {
+        "from": "agent-systems",
+        "to": "mcp",
+        "kind": "parent"
+      },
+      {
+        "from": "computing-foundations",
+        "to": "mechanical-calculation",
+        "kind": "parent"
+      },
+      {
+        "from": "mechanical-calculation",
+        "to": "mechanical-calculator",
+        "kind": "parent"
+      },
+      {
+        "from": "storage-interconnect",
+        "to": "memory",
+        "kind": "parent"
+      },
+      {
+        "from": "computer-science-technology",
+        "to": "modern-ai-systems",
+        "kind": "parent"
+      },
+      {
+        "from": "distributed-cloud-computing",
+        "to": "neural-computing",
+        "kind": "parent"
+      },
+      {
+        "from": "programming-methods",
+        "to": "nonlinear-structures-and-algorithms",
+        "kind": "parent"
+      },
+      {
+        "from": "mechanical-calculation",
+        "to": "number-systems",
+        "kind": "parent"
+      },
+      {
+        "from": "databases",
+        "to": "open-source-runtime",
+        "kind": "parent"
+      },
+      {
+        "from": "operating-systems",
+        "to": "operating-system-kernel",
+        "kind": "parent"
+      },
+      {
+        "from": "operating-system-kernel",
+        "to": "operating-system",
+        "kind": "parent"
+      },
+      {
+        "from": "computer-science-technology",
+        "to": "operating-systems",
+        "kind": "parent"
+      },
+      {
+        "from": "local-networking",
+        "to": "packet",
+        "kind": "parent"
+      },
+      {
+        "from": "compiler",
+        "to": "parser",
+        "kind": "parent"
+      },
+      {
+        "from": "operating-system",
+        "to": "process",
+        "kind": "parent"
+      },
+      {
+        "from": "computer-organization",
+        "to": "processor-architecture",
+        "kind": "parent"
+      },
+      {
+        "from": "programming-languages",
+        "to": "programming-abstraction",
+        "kind": "parent"
+      },
+      {
+        "from": "computer-science-technology",
+        "to": "programming-languages",
+        "kind": "parent"
+      },
+      {
+        "from": "data-structures-algorithms",
+        "to": "programming-methods",
+        "kind": "parent"
+      },
+      {
+        "from": "programming-abstraction",
+        "to": "programming-paradigms",
+        "kind": "parent"
+      },
+      {
+        "from": "open-source-runtime",
+        "to": "python",
+        "kind": "parent"
+      },
+      {
+        "from": "knowledge-augmentation",
+        "to": "rag",
+        "kind": "parent"
+      },
+      {
+        "from": "cpu",
+        "to": "registers",
+        "kind": "parent"
+      },
+      {
+        "from": "data-structures-algorithms",
+        "to": "relational-data-management",
+        "kind": "parent"
+      },
+      {
+        "from": "dbms",
+        "to": "relational-model",
+        "kind": "parent"
+      },
+      {
+        "from": "ip",
+        "to": "router",
+        "kind": "parent"
+      },
+      {
+        "from": "nonlinear-structures-and-algorithms",
+        "to": "searching",
+        "kind": "parent"
+      },
+      {
+        "from": "computer-science-technology",
+        "to": "software-engineering-version-control",
+        "kind": "parent"
+      },
+      {
+        "from": "nonlinear-structures-and-algorithms",
+        "to": "sorting",
+        "kind": "parent"
+      },
+      {
+        "from": "data-processing-platforms",
+        "to": "spark",
+        "kind": "parent"
+      },
+      {
+        "from": "dbms",
+        "to": "sql",
+        "kind": "parent"
+      },
+      {
+        "from": "operating-systems",
+        "to": "storage-abstraction",
+        "kind": "parent"
+      },
+      {
+        "from": "computer-organization",
+        "to": "storage-interconnect",
+        "kind": "parent"
+      },
+      {
+        "from": "ip",
+        "to": "tcp-udp",
+        "kind": "parent"
+      },
+      {
+        "from": "delivery-practices",
+        "to": "testing",
+        "kind": "parent"
+      },
+      {
+        "from": "operating-system",
+        "to": "thread",
+        "kind": "parent"
+      },
+      {
+        "from": "agent",
+        "to": "tool-calling",
+        "kind": "parent"
+      },
+      {
+        "from": "dbms",
+        "to": "transaction",
+        "kind": "parent"
+      },
+      {
+        "from": "attention-models",
+        "to": "transformer",
+        "kind": "parent"
+      },
+      {
+        "from": "nonlinear-structures-and-algorithms",
+        "to": "tree",
+        "kind": "parent"
+      },
+      {
+        "from": "computability-theory",
+        "to": "turing-machine",
+        "kind": "parent"
+      },
+      {
+        "from": "software-engineering-version-control",
+        "to": "version-control",
+        "kind": "parent"
+      },
+      {
+        "from": "virtualized-compute",
+        "to": "virtual-machine",
+        "kind": "parent"
+      },
+      {
+        "from": "operating-system",
+        "to": "virtual-memory",
+        "kind": "parent"
+      },
+      {
+        "from": "compiler-principles",
+        "to": "virtualized-compute",
+        "kind": "parent"
+      },
+      {
+        "from": "databases",
+        "to": "web-platform",
+        "kind": "parent"
+      }
+    ],
+    "nodes": [
+      {
+        "stage": "programming-languages",
+        "y": 0,
+        "parent": "compiler",
+        "title": "抽象语法树",
+        "id": "abstract-syntax-tree",
+        "type": "concept",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "data-structures-algorithms",
+        "y": 0,
+        "parent": "dbms",
+        "title": "ACID",
+        "id": "acid",
+        "type": "standard",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "modern-ai-systems",
+        "y": 0,
+        "parent": "modern-ai-systems",
+        "title": "智能体运行系统",
+        "id": "agent-systems",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "modern-ai-systems",
+        "y": 0,
+        "parent": "agent-systems",
+        "title": "智能体（Agent）",
+        "id": "agent",
+        "type": "technology",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "modern-ai-systems",
+        "y": 0,
+        "parent": "agent-systems",
+        "title": "AI 基础设施",
+        "id": "ai-infrastructure",
+        "type": "technology",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "computer-organization",
+        "y": 0,
+        "parent": "cpu",
+        "title": "ALU",
+        "id": "alu",
+        "type": "hardware",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "data-structures-algorithms",
+        "y": 0,
+        "parent": "linear-and-hash-structures",
+        "title": "数组",
+        "id": "array",
+        "type": "concept",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "programming-languages",
+        "y": 0,
+        "parent": "programming-abstraction",
+        "title": "汇编语言",
+        "id": "assembly",
+        "type": "software",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "big-data-ai",
+        "y": 0,
+        "parent": "big-data-ai",
+        "title": "注意力与基础模型",
+        "id": "attention-models",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "big-data-ai",
+        "y": 0,
+        "parent": "computer-science-technology",
+        "title": "Transformer 与基础模型",
+        "id": "big-data-ai",
+        "type": "concept",
+        "depth": 1,
+        "x": 0
+      },
+      {
+        "stage": "computing-foundations",
+        "y": 0,
+        "parent": "mathematical-logic",
+        "title": "布尔代数",
+        "id": "boolean-algebra",
+        "type": "theory",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "computer-organization",
+        "y": 0,
+        "parent": "storage-interconnect",
+        "title": "总线",
+        "id": "bus",
+        "type": "hardware",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "data-structures-algorithms",
+        "y": 0,
+        "parent": "linear-and-hash-structures",
+        "title": "C 语言",
+        "id": "c-language",
+        "type": "software",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "compiler-principles",
+        "y": 0,
+        "parent": "virtualized-compute",
+        "title": "云计算",
+        "id": "cloud-computing",
+        "type": "technology",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "compiler-principles",
+        "y": 0,
+        "parent": "compiler-principles",
+        "title": "云原生平台",
+        "id": "cloud-native-platform",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "distributed-cloud-computing",
+        "y": 0,
+        "parent": "deep-learning",
+        "title": "卷积神经网络",
+        "id": "cnn",
+        "type": "algorithm",
+        "depth": 5,
+        "x": 0
+      },
+      {
+        "stage": "programming-languages",
+        "y": 0,
+        "parent": "compiler",
+        "title": "编译优化",
+        "id": "compiler-optimization",
+        "type": "algorithm",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "programming-languages",
+        "y": 0,
+        "parent": "programming-languages",
+        "title": "编译与翻译链路",
+        "id": "compiler-pipeline",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "compiler-principles",
+        "y": 0,
+        "parent": "computer-science-technology",
+        "title": "移动计算、虚拟化与云的起步",
+        "id": "compiler-principles",
+        "type": "concept",
+        "depth": 1,
+        "x": 0
+      },
+      {
+        "stage": "programming-languages",
+        "y": 0,
+        "parent": "compiler-pipeline",
+        "title": "编译器",
+        "id": "compiler",
+        "type": "software",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "data-structures-algorithms",
+        "y": 0,
+        "parent": "nonlinear-structures-and-algorithms",
+        "title": "复杂度",
+        "id": "complexity",
+        "type": "theory",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "computing-foundations",
+        "y": 0,
+        "parent": "computing-foundations",
+        "title": "可计算性理论",
+        "id": "computability-theory",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "computer-networks",
+        "y": 0,
+        "parent": "computer-science-technology",
+        "title": "个人计算机与网络互连",
+        "id": "computer-networks",
+        "type": "concept",
+        "depth": 1,
+        "x": 0
+      },
+      {
+        "stage": "computer-organization",
+        "y": 0,
+        "parent": "computer-science-technology",
+        "title": "可计算性与电子计算机诞生",
+        "id": "computer-organization",
+        "type": "concept",
+        "depth": 1,
+        "x": 0
+      },
+      {
+        "y": 0,
+        "title": "计算机科学与技术",
+        "id": "computer-science-technology",
+        "type": "concept",
+        "depth": 0,
+        "x": 0
+      },
+      {
+        "stage": "computing-foundations",
+        "y": 0,
+        "parent": "computer-science-technology",
+        "title": "计算与逻辑的萌芽",
+        "id": "computing-foundations",
+        "type": "concept",
+        "depth": 1,
+        "x": 0
+      },
+      {
+        "stage": "compiler-principles",
+        "y": 0,
+        "parent": "cloud-native-platform",
+        "title": "容器",
+        "id": "container",
+        "type": "technology",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "software-engineering-version-control",
+        "y": 0,
+        "parent": "delivery-practices",
+        "title": "CI/CD",
+        "id": "continuous-integration-delivery",
+        "type": "concept",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "computer-organization",
+        "y": 0,
+        "parent": "processor-architecture",
+        "title": "CPU",
+        "id": "cpu",
+        "type": "hardware",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "distributed-cloud-computing",
+        "y": 0,
+        "parent": "distributed-cloud-computing",
+        "title": "大规模数据处理",
+        "id": "data-processing-platforms",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "data-structures-algorithms",
+        "y": 0,
+        "parent": "computer-science-technology",
+        "title": "结构化软件、数据库与微处理器",
+        "id": "data-structures-algorithms",
+        "type": "concept",
+        "depth": 1,
+        "x": 0
+      },
+      {
+        "stage": "data-structures-algorithms",
+        "y": 0,
+        "parent": "dbms",
+        "title": "索引",
+        "id": "database-index",
+        "type": "concept",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "databases",
+        "y": 0,
+        "parent": "computer-science-technology",
+        "title": "互联网与万维网",
+        "id": "databases",
+        "type": "concept",
+        "depth": 1,
+        "x": 0
+      },
+      {
+        "stage": "data-structures-algorithms",
+        "y": 0,
+        "parent": "relational-data-management",
+        "title": "数据库管理系统",
+        "id": "dbms",
+        "type": "software",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "distributed-cloud-computing",
+        "y": 0,
+        "parent": "machine-learning",
+        "title": "深度学习",
+        "id": "deep-learning",
+        "type": "technology",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "software-engineering-version-control",
+        "y": 0,
+        "parent": "software-engineering-version-control",
+        "title": "质量与交付实践",
+        "id": "delivery-practices",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "software-engineering-version-control",
+        "y": 0,
+        "parent": "delivery-practices",
+        "title": "设计模式",
+        "id": "design-pattern",
+        "type": "concept",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "distributed-cloud-computing",
+        "y": 0,
+        "parent": "computer-science-technology",
+        "title": "大数据与深度学习复兴",
+        "id": "distributed-cloud-computing",
+        "type": "concept",
+        "depth": 1,
+        "x": 0
+      },
+      {
+        "stage": "compiler-principles",
+        "y": 0,
+        "parent": "virtualized-compute",
+        "title": "分布式系统",
+        "id": "distributed-system",
+        "type": "concept",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "computer-networks",
+        "y": 0,
+        "parent": "ip",
+        "title": "DNS",
+        "id": "dns",
+        "type": "protocol",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "compiler-principles",
+        "y": 0,
+        "parent": "container",
+        "title": "Docker",
+        "id": "docker",
+        "type": "software",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "computer-organization",
+        "y": 0,
+        "parent": "computer-organization",
+        "title": "电子计算机系统",
+        "id": "electronic-computer-system",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "computer-organization",
+        "y": 0,
+        "parent": "electronic-computer-system",
+        "title": "电子数字计算机",
+        "id": "electronic-computer",
+        "type": "hardware",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "computer-networks",
+        "y": 0,
+        "parent": "local-networking",
+        "title": "以太网",
+        "id": "ethernet",
+        "type": "protocol",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "operating-systems",
+        "y": 0,
+        "parent": "storage-abstraction",
+        "title": "文件系统",
+        "id": "file-system",
+        "type": "software",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "computing-foundations",
+        "y": 0,
+        "parent": "logic-gates",
+        "title": "全加器",
+        "id": "full-adder",
+        "type": "hardware",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "software-engineering-version-control",
+        "y": 0,
+        "parent": "version-control",
+        "title": "Git",
+        "id": "git",
+        "type": "software",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "software-engineering-version-control",
+        "y": 0,
+        "parent": "git",
+        "title": "GitHub",
+        "id": "github",
+        "type": "software",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "distributed-cloud-computing",
+        "y": 0,
+        "parent": "neural-computing",
+        "title": "GPU",
+        "id": "gpu",
+        "type": "hardware",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "data-structures-algorithms",
+        "y": 0,
+        "parent": "nonlinear-structures-and-algorithms",
+        "title": "图",
+        "id": "graph",
+        "type": "concept",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "distributed-cloud-computing",
+        "y": 0,
+        "parent": "data-processing-platforms",
+        "title": "Hadoop",
+        "id": "hadoop",
+        "type": "software",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "data-structures-algorithms",
+        "y": 0,
+        "parent": "linear-and-hash-structures",
+        "title": "哈希表",
+        "id": "hash-table",
+        "type": "concept",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "databases",
+        "y": 0,
+        "parent": "web-platform",
+        "title": "HTTP",
+        "id": "http",
+        "type": "protocol",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "computer-organization",
+        "y": 0,
+        "parent": "computer-organization",
+        "title": "输入输出体系",
+        "id": "input-output-system",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "computer-organization",
+        "y": 0,
+        "parent": "input-output-system",
+        "title": "I/O",
+        "id": "input-output",
+        "type": "hardware",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "computer-organization",
+        "y": 0,
+        "parent": "processor-architecture",
+        "title": "ISA",
+        "id": "instruction-set-architecture",
+        "type": "standard",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "programming-languages",
+        "y": 0,
+        "parent": "compiler",
+        "title": "中间表示",
+        "id": "intermediate-representation",
+        "type": "concept",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "computer-networks",
+        "y": 0,
+        "parent": "computer-networks",
+        "title": "互联网协议栈",
+        "id": "internet-protocol-stack",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "computer-networks",
+        "y": 0,
+        "parent": "internet-protocol-stack",
+        "title": "IP",
+        "id": "ip",
+        "type": "protocol",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "modern-ai-systems",
+        "y": 0,
+        "parent": "modern-ai-systems",
+        "title": "知识增强",
+        "id": "knowledge-augmentation",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "compiler-principles",
+        "y": 0,
+        "parent": "container",
+        "title": "Kubernetes",
+        "id": "kubernetes",
+        "type": "software",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "big-data-ai",
+        "y": 0,
+        "parent": "transformer",
+        "title": "大语言模型（LLM）",
+        "id": "large-language-model",
+        "type": "technology",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "programming-languages",
+        "y": 0,
+        "parent": "compiler",
+        "title": "词法分析器",
+        "id": "lexer",
+        "type": "software",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "data-structures-algorithms",
+        "y": 0,
+        "parent": "programming-methods",
+        "title": "线性与散列结构",
+        "id": "linear-and-hash-structures",
+        "type": "concept",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "databases",
+        "y": 0,
+        "parent": "open-source-runtime",
+        "title": "Linux",
+        "id": "linux",
+        "type": "software",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "data-structures-algorithms",
+        "y": 0,
+        "parent": "linear-and-hash-structures",
+        "title": "链表",
+        "id": "list",
+        "type": "concept",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "computer-networks",
+        "y": 0,
+        "parent": "computer-networks",
+        "title": "局域互连",
+        "id": "local-networking",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "computing-foundations",
+        "y": 0,
+        "parent": "mathematical-logic",
+        "title": "逻辑门",
+        "id": "logic-gates",
+        "type": "hardware",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "computer-organization",
+        "y": 0,
+        "parent": "processor-architecture",
+        "title": "机器码",
+        "id": "machine-code",
+        "type": "software",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "distributed-cloud-computing",
+        "y": 0,
+        "parent": "neural-computing",
+        "title": "机器学习",
+        "id": "machine-learning",
+        "type": "technology",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "computing-foundations",
+        "y": 0,
+        "parent": "computing-foundations",
+        "title": "数学逻辑基础",
+        "id": "mathematical-logic",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "modern-ai-systems",
+        "y": 0,
+        "parent": "agent-systems",
+        "title": "模型上下文协议（MCP）",
+        "id": "mcp",
+        "type": "protocol",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "computing-foundations",
+        "y": 0,
+        "parent": "computing-foundations",
+        "title": "机械计算",
+        "id": "mechanical-calculation",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "computing-foundations",
+        "y": 0,
+        "parent": "mechanical-calculation",
+        "title": "机械计算器",
+        "id": "mechanical-calculator",
+        "type": "technology",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "computer-organization",
+        "y": 0,
+        "parent": "storage-interconnect",
+        "title": "内存",
+        "id": "memory",
+        "type": "hardware",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "modern-ai-systems",
+        "y": 0,
+        "parent": "computer-science-technology",
+        "title": "生成式 AI 与智能体",
+        "id": "modern-ai-systems",
+        "type": "concept",
+        "depth": 1,
+        "x": 0
+      },
+      {
+        "stage": "distributed-cloud-computing",
+        "y": 0,
+        "parent": "distributed-cloud-computing",
+        "title": "神经网络与加速计算",
+        "id": "neural-computing",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "data-structures-algorithms",
+        "y": 0,
+        "parent": "programming-methods",
+        "title": "非线性结构与算法",
+        "id": "nonlinear-structures-and-algorithms",
+        "type": "concept",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "computing-foundations",
+        "y": 0,
+        "parent": "mechanical-calculation",
+        "title": "数制",
+        "id": "number-systems",
+        "type": "concept",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "databases",
+        "y": 0,
+        "parent": "databases",
+        "title": "开放运行环境",
+        "id": "open-source-runtime",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "operating-systems",
+        "y": 0,
+        "parent": "operating-systems",
+        "title": "操作系统内核",
+        "id": "operating-system-kernel",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "operating-systems",
+        "y": 0,
+        "parent": "operating-system-kernel",
+        "title": "操作系统",
+        "id": "operating-system",
+        "type": "software",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "operating-systems",
+        "y": 0,
+        "parent": "computer-science-technology",
+        "title": "集成电路与分时系统",
+        "id": "operating-systems",
+        "type": "concept",
+        "depth": 1,
+        "x": 0
+      },
+      {
+        "stage": "computer-networks",
+        "y": 0,
+        "parent": "local-networking",
+        "title": "数据包",
+        "id": "packet",
+        "type": "protocol",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "programming-languages",
+        "y": 0,
+        "parent": "compiler",
+        "title": "语法分析器",
+        "id": "parser",
+        "type": "software",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "operating-systems",
+        "y": 0,
+        "parent": "operating-system",
+        "title": "进程",
+        "id": "process",
+        "type": "concept",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "computer-organization",
+        "y": 0,
+        "parent": "computer-organization",
+        "title": "处理器体系",
+        "id": "processor-architecture",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "programming-languages",
+        "y": 0,
+        "parent": "programming-languages",
+        "title": "程序表达与抽象",
+        "id": "programming-abstraction",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "programming-languages",
+        "y": 0,
+        "parent": "computer-science-technology",
+        "title": "晶体管、主机与早期软件",
+        "id": "programming-languages",
+        "type": "concept",
+        "depth": 1,
+        "x": 0
+      },
+      {
+        "stage": "data-structures-algorithms",
+        "y": 0,
+        "parent": "data-structures-algorithms",
+        "title": "程序设计与算法结构",
+        "id": "programming-methods",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "programming-languages",
+        "y": 0,
+        "parent": "programming-abstraction",
+        "title": "编程范式",
+        "id": "programming-paradigms",
+        "type": "concept",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "databases",
+        "y": 0,
+        "parent": "open-source-runtime",
+        "title": "Python",
+        "id": "python",
+        "type": "software",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "modern-ai-systems",
+        "y": 0,
+        "parent": "knowledge-augmentation",
+        "title": "检索增强生成（RAG）",
+        "id": "rag",
+        "type": "technology",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "computer-organization",
+        "y": 0,
+        "parent": "cpu",
+        "title": "寄存器",
+        "id": "registers",
+        "type": "hardware",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "data-structures-algorithms",
+        "y": 0,
+        "parent": "data-structures-algorithms",
+        "title": "关系数据管理",
+        "id": "relational-data-management",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "data-structures-algorithms",
+        "y": 0,
+        "parent": "dbms",
+        "title": "关系模型",
+        "id": "relational-model",
+        "type": "theory",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "computer-networks",
+        "y": 0,
+        "parent": "ip",
+        "title": "路由器",
+        "id": "router",
+        "type": "hardware",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "data-structures-algorithms",
+        "y": 0,
+        "parent": "nonlinear-structures-and-algorithms",
+        "title": "查找",
+        "id": "searching",
+        "type": "algorithm",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "software-engineering-version-control",
+        "y": 0,
+        "parent": "computer-science-technology",
+        "title": "开源协作与 Web 平台",
+        "id": "software-engineering-version-control",
+        "type": "concept",
+        "depth": 1,
+        "x": 0
+      },
+      {
+        "stage": "data-structures-algorithms",
+        "y": 0,
+        "parent": "nonlinear-structures-and-algorithms",
+        "title": "排序",
+        "id": "sorting",
+        "type": "algorithm",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "distributed-cloud-computing",
+        "y": 0,
+        "parent": "data-processing-platforms",
+        "title": "Spark",
+        "id": "spark",
+        "type": "software",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "data-structures-algorithms",
+        "y": 0,
+        "parent": "dbms",
+        "title": "SQL",
+        "id": "sql",
+        "type": "software",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "operating-systems",
+        "y": 0,
+        "parent": "operating-systems",
+        "title": "持久化与文件抽象",
+        "id": "storage-abstraction",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "computer-organization",
+        "y": 0,
+        "parent": "computer-organization",
+        "title": "存储与互连",
+        "id": "storage-interconnect",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "computer-networks",
+        "y": 0,
+        "parent": "ip",
+        "title": "TCP/UDP",
+        "id": "tcp-udp",
+        "type": "protocol",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "software-engineering-version-control",
+        "y": 0,
+        "parent": "delivery-practices",
+        "title": "测试",
+        "id": "testing",
+        "type": "concept",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "operating-systems",
+        "y": 0,
+        "parent": "operating-system",
+        "title": "线程",
+        "id": "thread",
+        "type": "concept",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "modern-ai-systems",
+        "y": 0,
+        "parent": "agent",
+        "title": "工具调用",
+        "id": "tool-calling",
+        "type": "protocol",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "data-structures-algorithms",
+        "y": 0,
+        "parent": "dbms",
+        "title": "事务",
+        "id": "transaction",
+        "type": "concept",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "big-data-ai",
+        "y": 0,
+        "parent": "attention-models",
+        "title": "Transformer",
+        "id": "transformer",
+        "type": "algorithm",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "data-structures-algorithms",
+        "y": 0,
+        "parent": "nonlinear-structures-and-algorithms",
+        "title": "树",
+        "id": "tree",
+        "type": "concept",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "computing-foundations",
+        "y": 0,
+        "parent": "computability-theory",
+        "title": "图灵机",
+        "id": "turing-machine",
+        "type": "theory",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "software-engineering-version-control",
+        "y": 0,
+        "parent": "software-engineering-version-control",
+        "title": "版本控制协作",
+        "id": "version-control",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "compiler-principles",
+        "y": 0,
+        "parent": "virtualized-compute",
+        "title": "虚拟机",
+        "id": "virtual-machine",
+        "type": "technology",
+        "depth": 3,
+        "x": 0
+      },
+      {
+        "stage": "operating-systems",
+        "y": 0,
+        "parent": "operating-system",
+        "title": "虚拟内存",
+        "id": "virtual-memory",
+        "type": "concept",
+        "depth": 4,
+        "x": 0
+      },
+      {
+        "stage": "compiler-principles",
+        "y": 0,
+        "parent": "compiler-principles",
+        "title": "虚拟化与弹性计算",
+        "id": "virtualized-compute",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      },
+      {
+        "stage": "databases",
+        "y": 0,
+        "parent": "databases",
+        "title": "万维网平台",
+        "id": "web-platform",
+        "type": "concept",
+        "depth": 2,
+        "x": 0
+      }
+    ]
+  },
+  "stages": [
+    {
+      "updated": "",
+      "description": "",
+      "title": "Transformer 与基础模型",
+      "id": "big-data-ai",
+      "type": "stage",
+      "order": 11,
+      "created": ""
+    },
+    {
+      "updated": "",
+      "description": "",
+      "title": "移动计算、虚拟化与云的起步",
+      "id": "compiler-principles",
+      "type": "stage",
+      "order": 9,
+      "created": ""
+    },
+    {
+      "updated": "",
+      "description": "",
+      "title": "个人计算机与网络互连",
+      "id": "computer-networks",
+      "type": "stage",
+      "order": 6,
+      "created": ""
+    },
+    {
+      "updated": "",
+      "description": "",
+      "title": "可计算性与电子计算机诞生",
+      "id": "computer-organization",
+      "type": "stage",
+      "order": 2,
+      "created": ""
+    },
+    {
+      "updated": "",
+      "description": "",
+      "title": "计算与逻辑的萌芽",
+      "id": "computing-foundations",
+      "type": "stage",
+      "order": 1,
+      "created": ""
+    },
+    {
+      "updated": "",
+      "description": "",
+      "title": "结构化软件、数据库与微处理器",
+      "id": "data-structures-algorithms",
+      "type": "stage",
+      "order": 5,
+      "created": ""
+    },
+    {
+      "updated": "",
+      "description": "",
+      "title": "互联网与万维网",
+      "id": "databases",
+      "type": "stage",
+      "order": 7,
+      "created": ""
+    },
+    {
+      "updated": "",
+      "description": "",
+      "title": "大数据与深度学习复兴",
+      "id": "distributed-cloud-computing",
+      "type": "stage",
+      "order": 10,
+      "created": ""
+    },
+    {
+      "updated": "",
+      "description": "",
+      "title": "生成式 AI 与智能体",
+      "id": "modern-ai-systems",
+      "type": "stage",
+      "order": 12,
+      "created": ""
+    },
+    {
+      "updated": "",
+      "description": "",
+      "title": "集成电路与分时系统",
+      "id": "operating-systems",
+      "type": "stage",
+      "order": 4,
+      "created": ""
+    },
+    {
+      "updated": "",
+      "description": "",
+      "title": "晶体管、主机与早期软件",
+      "id": "programming-languages",
+      "type": "stage",
+      "order": 3,
+      "created": ""
+    },
+    {
+      "updated": "",
+      "description": "",
+      "title": "开源协作与 Web 平台",
+      "id": "software-engineering-version-control",
+      "type": "stage",
+      "order": 8,
+      "created": ""
+    }
+  ]
+}

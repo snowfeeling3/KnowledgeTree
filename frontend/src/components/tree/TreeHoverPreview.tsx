@@ -1,0 +1,4 @@
+import { NODE_TYPES, labelOf, type NodeRecord, type Stage, type Relation } from "../../types";
+export function TreeHoverPreview({ node, nodes, stages, relations }: { node: Pick<NodeRecord, "id" | "title" | "type" | "stage"> & Partial<NodeRecord>; nodes: readonly NodeRecord[]; stages: readonly Stage[]; relations: readonly Relation[] }) {
+  return <div className="botanical-tooltip ux-hover-preview" role="tooltip"><strong>{node.title}</strong><span>{labelOf(NODE_TYPES, node.type)} · {stages.find((stage) => stage.id === node.stage)?.title ?? "未分阶段"}</span><span>{node.purpose || node.problem || "选择查看正文与相关知识"}</span><span>{nodes.filter((other) => other.parent === node.id).length} 个子节点 · {relations.filter((relation) => relation.from === node.id || relation.to === node.id).length} 条关系</span></div>;
+}

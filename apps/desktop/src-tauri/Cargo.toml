@@ -1,0 +1,37 @@
+[package]
+name = "knowledge-tree-desktop"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+description = "Knowledge Tree desktop shell"
+
+[lib]
+name = "knowledge_tree_desktop_lib"
+crate-type = ["rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+dirs = "6"
+fs2 = "0.4"
+kt-core = { path = "../../../crates/kt-core" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"
+tauri-plugin-updater = { version = "2", default-features = false, features = ["native-tls", "zip"] }
+tauri-plugin-window-state = "2"
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]
+
+[target."cfg(windows)".dependencies]
+windows-sys = { version = "0.61", features = ["Win32_Foundation", "Win32_System_Diagnostics_ToolHelp"] }
+
+[dev-dependencies]
+tempfile = "3"
+base64 = "0.22"
+minisign-verify = "0.2"

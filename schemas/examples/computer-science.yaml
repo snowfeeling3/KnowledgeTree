@@ -1,0 +1,43 @@
+subject:
+  id: computer-science
+  title: 计算机科学
+  description: 从计算工具到智能系统的技术演化
+stages:
+  - id: mechanical
+    title: 机械计算
+    order: 1
+    start: 1642
+    end: 1945
+    description: 用机械装置执行计算
+  - id: architecture
+    title: 计算机组成时代
+    order: 2
+    description: 处理、存储和控制如何协同
+nodes:
+  - id: computer-organization
+    title: 计算机组成
+    type: concept
+    stage: architecture
+  - id: cpu
+    title: CPU
+    type: hardware
+    stage: architecture
+    parent: computer-organization
+  - id: alu
+    title: ALU
+    type: hardware
+    stage: architecture
+    parent: cpu
+  - id: register
+    title: Register
+    type: hardware
+    stage: architecture
+    parent: cpu
+relations:
+  - id: cpu-contains-alu
+    from: cpu
+    to: alu
+    type: contains
+  - from: alu
+    to: register
+    type: related_to

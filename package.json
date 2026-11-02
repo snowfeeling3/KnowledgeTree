@@ -1,0 +1,13 @@
+{
+  "name": "knowledge-tree",
+  "version": "0.1.2",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev-desktop.cjs",
+    "test:ui": "pnpm --dir frontend test",
+    "build:ui": "pnpm --dir frontend build"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.1"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://knowledge-tree.local/schemas/knowledge-import.schema.json",
+  "title": "KnowledgeImport",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject", "stages", "nodes", "relations"],
+  "properties": {
+    "subject": { "$ref": "#/$defs/subject" },
+    "stages": { "type": "array", "items": { "$ref": "#/$defs/stage" } },
+    "nodes": { "type": "array", "items": { "$ref": "#/$defs/node" } },
+    "relations": { "type": "array", "items": { "$ref": "#/$defs/relation" } }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64,
+      "pattern": "^[a-z]([a-z0-9]|-[a-z0-9])*$",
+      "description": "ASCII slug. The Rust validator also rejects Windows reserved device names."
+    },
+    "subject": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "title": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "description": { "type": "string", "maxLength": 8000 }
+      }
+    },
+    "stage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "order"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "title": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "description": { "type": "string", "maxLength": 8000 },
+        "start": { "type": "integer" },
+        "end": { "type": "integer" },
+        "order": { "type": "integer" }
+      }
+    },
+    "node": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "type"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "title": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "type": {
+          "enum": ["concept", "technology", "person", "organization", "algorithm", "hardware", "software", "protocol", "theory", "standard", "event"]
+        },
+        "stage": { "$ref": "#/$defs/id" },
+        "parent": { "$ref": "#/$defs/id" },
+        "tags": { "type": "array", "maxItems": 32, "items": { "type": "string", "maxLength": 40 } }
+      }
+    },
+    "relation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["from", "to", "type"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "from": { "$ref": "#/$defs/id" },
+        "to": { "$ref": "#/$defs/id" },
+        "type": {
+          "enum": ["predecessor", "successor", "derived_from", "inspired_by", "depends_on", "implements", "replaces", "related_to", "contains"]
+        }
+      }
+    }
+  }
+}
